@@ -1,0 +1,71 @@
+/* Reset some default styles to ensure consistency across browsers */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set font styles for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #008080;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the main sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the lists and paragraphs within the sections */
+ul, p {
+    margin-bottom: 15px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #008080;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Apply styles to specific sections by ID */
+#causes, #impacts, #prevention {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style headings */
+h1, h2 {
+    color: #008080;
+}
+
+/* Apply specific styles to the unordered list within the causes section */
+#causes ul {
+    list-style-type: square;
+}
+
+/* Apply specific styles to the unordered list within the impacts section */
+#impacts ul {
+    list-style-type: circle;
+}
+
+/* Apply specific styles to the unordered list within the prevention section */
+#prevention ul {
+    list-style-type: disc;
+}
